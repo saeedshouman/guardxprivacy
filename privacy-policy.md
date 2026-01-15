@@ -1,11 +1,11 @@
 # 🔒 Privacy Policy — GuardX
 **App Name:** **GuardX**  
-**Developer:** AndroTech  
+**Developer:** AndroTechs Apps 
 
 ---
 
 ## 1. Introduction
-GuardX (“we”, “our”, “the app”) is a privacy-focused mobile application designed to protect users from harmful or unwanted websites by filtering internet connections locally on the device.
+GuardX (“we”, “our”, “the app”) is a privacy-focused digital wellbeing and protection application designed to help users control app usage, manage internet access, and browse safely.
 
 Your privacy is our top priority. GuardX does **not** collect, store, or share any personal data.
 
@@ -13,96 +13,107 @@ Your privacy is our top priority. GuardX does **not** collect, store, or share a
 
 ## 2. Data Collection & Usage
 ### We do **NOT** collect any personal information.
-GuardX does **NOT** collect:
+
+GuardX does **NOT** collect, store, or transmit:
 
 - Browsing history  
 - DNS queries  
 - IP addresses  
-- Device information  
-- Location  
-- Personal data  
-- Contacts, messages, photos, or any private files  
+- Device identifiers  
+- Location data  
+- Personal data of any kind  
+- Contacts, messages, photos, or private files  
 - Advertising identifiers  
 
-All processing happens **locally on your device**.
+All processing and analysis happens **locally on your device**.
 
 ---
 
-## 3. How GuardX Works
-GuardX uses Android’s official **VpnService API** to filter internet traffic on-device. Filtering is used for:
+## 3. App Functionality & Installed Apps
+GuardX requires visibility into installed applications on the device in order to:
 
-- Blocking harmful or adult websites  
-- Blocking ads or trackers  
-- Allowing user-defined blocklists and whitelists  
+- Allow users to select apps for **Focus Modes**
+- Allow users to manage **internet access per app**
+- Apply user-defined restrictions and controls
 
-GuardX performs all filtering **locally** and does **not** send, store, or process traffic externally.
-
----
-
-## 4. Third-Party DNS Providers
-GuardX uses public DNS resolvers selected by the user, and these DNS resolvers are **public and free**.  
-GuardX does **not** send data to any third-party other than standard DNS queries handled directly by your device.
+The list of installed apps is used **only locally**, is never stored, and is never shared or transmitted outside the device.
 
 ---
 
-## 5. VPN Permission
-GuardX requires the official Android VPN permission to function:
+## 4. How GuardX Works (VpnService)
+GuardX uses Android’s official **VpnService API** to enable core features such as:
 
-```
-android.permission.BIND_VPN_SERVICE
-```
+- Safe browsing protection using DNS-based filtering  
+- Blocking harmful, phishing, or inappropriate websites  
+- Managing internet access for selected apps  
+- Applying Focus and Internet Control features  
 
-This permission allows local traffic filtering only.  
-GuardX does **not** route traffic to external servers and does not monitor or capture your activity.
+The VPN is used **locally on the device only**.  
+GuardX does **not** provide a remote VPN service, does **not** route traffic to external servers, and does **not** monitor, capture, or analyze user traffic.
 
 ---
 
-## 6. Custom Blocklists & Whitelists
+## 5. Third-Party DNS Providers
+GuardX allows users to choose public DNS resolvers.  
+DNS queries are handled directly by the device according to the selected resolver.
+
+GuardX does **not** send user data to any third-party services beyond standard DNS resolution.
+
+---
+
+## 6. Focus Modes & Screen Time
+GuardX provides Focus Modes and screen usage insights to help users manage digital habits.
+
+- App usage analysis is performed **locally**
+- No usage data is uploaded or shared
+- All settings are user-controlled and stored on-device
+
+---
+
+## 7. Custom Blocklists & Whitelists
 Users may manually add domains to:
 
 - Blocklist  
 - Whitelist  
 
-These entries are saved **locally** and never uploaded.  
-You may remove them anytime.
+These entries are stored **locally on the device** and can be removed at any time.
 
 ---
 
-## 7. Security Features
-GuardX supports optional security features:
+## 8. Security Features
+GuardX supports optional security features such as:
 
 - PIN Lock  
 - Biometric Authentication  
 
-PINs and biometric data are handled securely via Android APIs.  
-GuardX does **not** store or transmit this data.
+PINs and biometric data are handled securely using Android system APIs.  
+GuardX does **not** store or transmit this information.
 
 ---
 
-## 8. Children’s Privacy
-GuardX is designed to help protect families and children.  
-The app collects **no data** from children or any users.
+## 9. Children’s Privacy
+GuardX is designed to be suitable for families and shared devices.  
+The app does **not** collect any data from children or adults.
 
 ---
 
-## 9. Your Rights
-Because GuardX does not collect or store personal data:
+## 10. Your Rights
+Because GuardX does not collect personal data:
 
-- There is no user data to access, modify, or delete.  
-- Uninstalling the app deletes all settings stored locally.
-
----
-
-## 10. Policy Updates
-We may update this Privacy Policy to comply with Google Play policies or improve clarity.  
-Updates will be posted on GitHub or inside the app.
+- There is no user data to access, export, or delete  
+- Uninstalling the app removes all locally stored settings
 
 ---
 
-## 11. Contact
-For any questions, please contact:
+## 11. Policy Updates
+This Privacy Policy may be updated to reflect new features or policy requirements.  
+The latest version will always be available via the same public URL.
+
+---
+
+## 12. Contact
+For any privacy-related questions, please contact:
 
 **Email:** androtech@bk.ru
 
 ---
-
